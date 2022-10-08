@@ -12,6 +12,9 @@ it('Registration', () => {
 
 
   cy.getCookies('AC_SF_8CEFDA09D5').should('exist');
-  cy.getCookies('AC_SF_8CEFDA09D5').should('exist');
+
+
+
+
 
 })
