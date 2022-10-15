@@ -1,5 +1,6 @@
 ///<reference types="cypress"/>
 import user from '../fixtures/example.json'
+import AutorizationPage from '../support/pages/AutorizationPage'
 
 
 it('Registration', () => {
