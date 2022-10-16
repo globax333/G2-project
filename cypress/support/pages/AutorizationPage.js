@@ -15,7 +15,7 @@ class AutorizationPage extends BasePage{
     getLoginButton(){
         return cy.get('button[title="Login"]');
 
-              // МЕTОДИ
+            // МЕTОДИ
     }
     typeTextLoginFIeld(userName){
         cy.log(`Type username ${userName} in login field`)
@@ -35,6 +35,14 @@ class AutorizationPage extends BasePage{
         cy.log(`Click login button`);
         this.getLoginButton().click();
     }
- 
+    
+    Error_Message_On_Login(){
+        return  cy.get('[class="alert alert-error alert-danger"]')
+    }
+    Cross_On_Error_Message_On_Login(){
+        return  cy.get('button[class="close"]')
+    }
+    
+
 }
 export default new AutorizationPage();

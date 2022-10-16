@@ -13,6 +13,4 @@ it('Registration', () => {
 
   cy.getCookie('AC_SF_8CEFDA09D5').should('exist');
 
-
-
 })
