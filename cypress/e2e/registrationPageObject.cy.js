@@ -16,7 +16,6 @@ const user = {
 it('Registration', () => {
   
   RegisterPage.visit()
-
   RegisterPage.getFirstname().type(user.firstName);
   RegisterPage.getLastname().type(user.lastName);
   RegisterPage.getEmail().type(user.email);
