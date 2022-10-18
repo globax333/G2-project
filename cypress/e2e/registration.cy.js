@@ -39,31 +39,3 @@ it('Registration', () => {
   
 
 })
-/*
-it('Registration with Faker', () => {
-  cy.visit('/');
-
-  cy.get('#customer_menu_top').click();
-  cy.get('#accountFrm button').click();
-
-  cy.get('#AccountFrm_firstname').type('firstname');
-  cy.get('#AccountFrm_lastname').type('LastNadme');
-  cy.get('#AccountFrm_email').type('qwefffdd11@qwe.com');
-  cy.get('#AccountFrm_address_1').type('address 1');
-  cy.get('#AccountFrm_city').type('SomeCity');
-  cy.get('#AccountFrm_zone_id').select(1);
-  cy.get('#AccountFrm_postcode').type('36589');
-  cy.get('#AccountFrm_country_id').select('United Kingdom');
-  cy.get('#AccountFrm_loginname').type('usernamffde41');
-  cy.get('#AccountFrm_password').type('qweqweq!@#!#');
-  cy.get('#AccountFrm_confirm').type('qweqweq!@#!#');
-  cy.get('#AccountFrm_newsletter0').click();
-  cy.get('#AccountFrm_agree').check();
-  cy.get('[class="btn btn-orange pull-right lock-on-click"]').click();
-  
-
-  cy.get('span.maintext').should('contain', ' Your Account Has Been Created!')
-  
-
-})
-*/
